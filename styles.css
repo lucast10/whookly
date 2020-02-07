@@ -1,0 +1,71 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #E74C4E;
+}
+
+header {
+    text-align: center;
+    color: #9A9E9B;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#header {
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+-moz-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+    
+}
+
+.esquema {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 2em 35em 35em;
+    width: 100%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: center;
+    
+}
+
+.comida {
+    border-radius: 3px;
+    text-align: center;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+-moz-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+padding-top: 5%;
+}
+
+
+.dia {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+    padding: 10px 5px;
+    border-radius: 3px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+-moz-box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+box-shadow: 10px 10px 18px -3px rgba(0,0,0,0.77);
+}
