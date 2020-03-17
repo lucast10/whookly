@@ -42,7 +42,7 @@
                 <div class="dia">Domingo</div>
                 <div class="comida">Filet de merluza con puré de calabaza</div>
                 <div class="comida"></div>
-            </div>
+            </div>  
             <div id="segundoesquema">
                 <div class="dia">Lunes</div>
                 <div class="comida">Carne pure de calabaza</div>
@@ -116,13 +116,16 @@
                 var dayOfMonth = new Date();
                     var date = dayOfMonth.getDate();
                     
-                    if (date <= 7) {
+                    if (date > 7) {
                         document.getElementById('esquema').style.display = 'none';
-                    } else if (date > 8 && date <= 14) {
+                    }
+                    if (date < 8 || date > 14) {
                         document.getElementById('segundoesquema').style.display = 'none';
-                    } else if (date > 14 && date <= 21) {
+                    } 
+                    if (date < 15 || date > 21) {
                         document.getElementById('terceresquema').style.display = 'none';
-                    } else {
+                    } 
+                    if (date < 22) {
                         document.getElementById('cuartoesquema').style.display = 'none';       
                     }
             
